@@ -80,8 +80,7 @@ header {
 }
 .cards {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
     background-color: white;
     width: 100%;
     height: 100%;
@@ -98,20 +97,38 @@ header {
 .text-under-cards {
     display: flex;
     background-color: white;
-
     width: 100%;
+    justify-content: space-around;
+
 }
 .card-text-1 , .card-text-2, .card-text-3 , .card-text-4 {
     background-color: white;
-    align-items: center;
-    justify-content: space-around;
-
     width: 200px;
-    height: 50px;
-
+    text-align: center;
+    justify-content: center;
 }
 .cards-header {
     display: flex;
     justify-content: center;
     background-color: white;
+}
+.html-logo{
+    width: 150px;
+    height: 150px;
+    margin: 18px;
+}
+.css-logo{
+    width: 130px;
+    height: 160px;
+    margin: 10px 10px 10px 30px;
+}
+.javascript-logo{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+.react-logo{
+    width: 150px;
+    height: 135px;
+    margin: 18px;
 }
